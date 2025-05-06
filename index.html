@@ -3,23 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="index.css" />
     <title>Document</title>
   </head>
   <body>
-    <header class="">
-      <a>allrecipes</a>
-      <div>
-        <input placeholder="Find a recipe or ingredient" />
-      </div>
-      <div>
-        <ul>
-          <li>Log in</li>
-          <li>Magazine</li>
-          <li>NewsLetters</li>
-          <li>Sweepstakes</li>
-        </ul>
+    <header class="menu">
+      <div class="menu__top">
+        <div class="menu__logo">
+          <a>allrecipes</a>
+        </div>
+        <div class="menu__search">
+          <input placeholder="Find a recipe or ingredient" type="text" />
+        </div>
+        <div class="menu__list">
+          <ul class="menu__list-link">
+            <li class="vl">Log in</li>
+            <li class="vl">Magazine</li>
+            <li class="vl">NewsLetters</li>
+            <li class="vl">Sweepstakes</li>
+            <li class="vl">myrecipes</li>
+          </ul>
+        </div>
+        <div class="menu__recipes">
+          <ul class="menu__recipes-types">
+            <li class="menu__recipes-types-dinner">
+              DINNERS
+              <ul class="dropdown">
+                <li>Chicken</li>
+                <li>Beef</li>
+                <li>Vegetarian</li>
+                <li>Chicken</li>
+                <li>Beef</li>
+                <li>Vegetarian</li>
+              </ul>
+            </li>
+            <li>MEALS</li>
+            <li>INGREDIENTS</li>
+            <li>OCASSIONS</li>
+            <li>CUISINES</li>
+            <li>KITCHEN TIPS</li>
+            <li>NEWS</li>
+            <li>FEATURES</li>
+            <li>ABOUT US</li>
+          </ul>
+        </div>
       </div>
     </header>
+    <main>
+      <div class="ads"></div>
+      <div class="main__stats">
+        <div>
+          <a class="main__stats-link" href="#"
+            >America's #1
+            <span class="main__stats-span">Trusted Recipe Resource</span> since
+            1997
+          </a>
+        </div>
+        <div class="main__stats-value">
+          <div>
+            <p>51K Orignal Recipes</p>
+          </div>
+          <div>
+            <p>7M+ Ratings & Reviews</p>
+          </div>
+          <div>
+            <p>67M Home Cook</p>
+          </div>
+        </div>
+      </div>
+      <div class="main__hero">
+        <div class="main__hero-image">
+          <img
+            src="./images/hero.webp"
+            alt="breakfast club"
+            width="800"
+            height="535"
+          />
+        </div>
+        <aside>
+          <h1 class="">The Latest</h1>
+          <div class="aside">
+            <div>
+              <img src="./images/vine-tomato.webp" alt="Tomatoes" width="100" />
+            </div>
+            <p class="aside__first">
+              FDA Announces 2 Ongoing Recalls on Tomatoes Due To Potential
+              Salmonella Contamination
+            </p>
+          </div>
+        </aside>
+      </div>
+    </main>
   </body>
 </html>
